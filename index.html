@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6ef0, #ffeff0, #fff0f5);
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            color: #463384;
+            margin-top: 40px;
+            font-size: 2.5rem;
+            font-family: 'Georgia', serif;
+        }
+        .boton {
+            background-color: #FF88BF;
+            border: none;
+            color: white;
+            padding: 14px 28px;
+            margin: 15px;
+            margin-top: 18px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 1.2rem;
+        }
+        .boton:hover {
+            background-color: #FF6DA6;
+        }
+        .boton:active {
+            background-color: #FF4C8D;
+        }
+        .contenido {
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .contenido img {
+            max-width: 100px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .gif-container {
+            margin-top: 30px;
+        }
+        .gif-container img {
+            width: 150px;
+            margin: 10px;
+            border-radius: 12px;
+        }
+        .bio {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            color: #333;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .video-container {
+            margin-top: 50px;
+        }
+        video {
+            max-width: 100%;
+            border-radius: 12px;
+        }
+        .vinculos {
+            margin-top: 40px;
+        }
+        .vinculos a {
+            color: #FF88BF;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .vinculos a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenidos a mi página Personal 💖</h1>
+
+    <button class="boton" onclick="window.open('fortalezas.html', '_blank')">Fortalezas</button>
+    <button class="boton" onclick="window.open('debilidades.html', '_blank')">Debilidades</button>
+    <button class="boton" onclick="window.open('fotos.html', '_blank')">Fotos</button>
+    <button class="boton" onclick="window.open('metas.html', '_blank')">Metas</button>
+    <button class="boton" onclick="window.open('sobre-mi.html', '_blank')">Sobre mí</button>
+
+    <div class="contenido">
+        <p>¡Aquí podrás ver más sobre mí y mi vida! Estoy muy emocionada de compartir mis pensamientos, fotos y metas con todos ustedes. 💖</p>
+    </div>
+
+    <div class="gif-container">
+        <img src="https://media.giphy.com/media/3oKIPfNY7ZBtkjEKJ2/giphy.gif" alt="gif1">
+        <img src="https://media.giphy.com/media/26gJlz7zmC0aFpyFg/giphy.gif" alt="gif2">
+        <img src="https://media.giphy.com/media/l0MYDeBWnpqpbovxK/giphy.gif" alt="gif3">
+    </div>
+
+    <div class="bio">
+        <p>Mi nombre es María Fernanda Osorio Cárdenas, y tengo 16 años, aunque en marzo de 2026 celebraré mi cumpleaños número 17. Nací el 28 de marzo de 2009, una fecha que siempre he considerado especial. A lo largo de mi vida, he aprendido a disfrutar de cada etapa y de cada experiencia, y hoy me considero una persona extrovertida, con una gran energía que me permite interactuar y conectar fácilmente con los demás. Desde pequeña, he sido alguien que siempre tiene algo que decir, a veces incluso más de lo que los demás quieren escuchar, pero me encanta compartir mis pensamientos, ideas y emociones. Hablar es, sin duda, una de las cosas que más disfruto hacer, y me siento cómoda en cualquier ambiente donde pueda expresarme.</p>
+    </div>
+
+    <!-- Espacio para el video MP4 -->
+    <div class="video-container">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta este formato de video.
+        </video>
+    </div>
+
+    <!-- Vínculos -->
+    <div class="vinculos">
+        <a href="fortalezas.html">Fortalezas</a>
+        <a href="debilidades.html">Debilidades</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="metas.html">Metas</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+    </div>
+</body>
+</html>
+
